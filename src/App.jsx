@@ -25,8 +25,8 @@ function App() {
 
 
   return (
-     <C.Flex h="100vh" align="center" justify="center" bg="#241345" color="blue">
-        <C.Center maxW={500} w ="100%" py={11} px={2} flexDirection="column" border='6px' borderColor="#2c5391" borderRadius="20px" borderStyle={'solid'}>
+     <C.Flex h="100vh" align="center" justify="center" bg="black" color="white">
+        <C.Center maxW={500} w ="100%" py={11} px={2} flexDirection="column" border='6px' borderColor="white" borderRadius="20px" borderStyle={'solid'}>
           <C.HStack spacing={4}>
             {Steps.map((item) =>(
               <Step key={item} index={item} active={step===item}/>
